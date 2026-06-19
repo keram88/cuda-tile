@@ -18,18 +18,18 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20 -g -O0 -fno-rtti")
 
 target_link_libraries(CTReader PRIVATE
   ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/install/lib/libCudaTileDialect.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libLLVMBinaryFormat.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libLLVMDemangle.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libLLVMSupport.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRAsmParser.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRBytecodeReader.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRControlFlowInterfaces.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRFunctionInterfaces.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRIR.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRInferTypeOpInterface.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRParser.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRPass.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRSideEffectInterfaces.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRSupport.a
-${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libLLVMBinaryFormat.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libLLVMBinaryFormat.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libLLVMDemangle.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libLLVMSupport.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRAsmParser.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRBytecodeReader.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRControlFlowInterfaces.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRFunctionInterfaces.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRIR.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRInferTypeOpInterface.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRParser.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRPass.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRSideEffectInterfaces.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libMLIRSupport.a
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda-tile/build/llvm-project-build/lib/libLLVMBinaryFormat.a
 )
